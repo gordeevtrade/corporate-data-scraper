@@ -1,0 +1,25 @@
+# Python cache & build
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
+build/
+dist/
+*.egg-info/
+
+# Output data & logs
+extracted_team.json
+*.json
+!data/*.json
+*.log
+*.html.bak
+
+# IDE & OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
